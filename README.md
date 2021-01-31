@@ -1,2 +1,2 @@
-<b>Course work</b>
+Course work
 
