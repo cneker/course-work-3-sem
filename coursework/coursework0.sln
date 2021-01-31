@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coursework0", "coursework0\coursework0.csproj", "{ECA9EF88-B5B6-4AC4-A4E0-17F50140129B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECA9EF88-B5B6-4AC4-A4E0-17F50140129B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA9EF88-B5B6-4AC4-A4E0-17F50140129B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA9EF88-B5B6-4AC4-A4E0-17F50140129B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA9EF88-B5B6-4AC4-A4E0-17F50140129B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AFA2E83-CB11-4BD8-937A-BEC87E8A5DF0}
+	EndGlobalSection
+EndGlobal

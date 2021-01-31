@@ -1,0 +1,17 @@
+﻿<Window x:Class="coursework0.Search"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:coursework0"
+        mc:Ignorable="d"
+        Title="Search" Height="400" Width="400">
+    <Grid>
+        <TextBlock Text="Введите данные" Margin="47,168,241,168"/>
+        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Height="28" Margin="164,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186"/>
+        <Button Content="Поиск" HorizontalAlignment="Center" Height="31" Margin="0,226,0,0" VerticalAlignment="Top" Width="186" Click="Accept_Click"/>
+        <RadioButton x:Name="FIO" Content="ФИО" HorizontalAlignment="Left" Height="20" Margin="47,59,0,0" VerticalAlignment="Top" Width="110" Click="Insert_SearchValue"/>
+        <RadioButton x:Name="Fac" Content="Кафедра" HorizontalAlignment="Left" Height="20" Margin="144,58,0,0" VerticalAlignment="Top" Width="110" Click="Insert_SearchValue"/>
+        <RadioButton x:Name="Spec" Content="Должность" HorizontalAlignment="Left" Height="20" Margin="257,59,0,0" VerticalAlignment="Top" Width="110" Click="Insert_SearchValue"/>
+    </Grid>
+</Window>

@@ -1,0 +1,65 @@
+﻿<Window x:Class="coursework0.Insert"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:coursework0"
+        mc:Ignorable="d"
+        Title="Insert" Height="500" Width="600">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Style.Setters>
+                <Setter Property="HorizontalAlignment" Value="Left"/>
+                <Setter Property="TextWrapping" Value="Wrap"/>
+                <Setter Property="VerticalAlignment" Value="Top"/>
+                <Setter Property="FontSize" Value="12"/>
+                <Setter Property="Grid.Column" Value="0"/>
+            </Style.Setters>
+        </Style>
+    </Window.Resources>
+
+
+    <Grid>
+
+        <TextBlock Margin="9,34,0,0" Text="Фамилия*"/>
+        <TextBlock Margin="22,69,0,0" Text="Имя*"/>
+        <TextBlock Margin="10,104,0,0" Text="Отчество*"/>
+        <TextBlock Margin="9,186,0,0" Text="Дата рождения"/>
+        <TextBlock Margin="32,219,0,0" Text="Адрес"/>
+        <TextBlock Margin="5,152,0,0" Text="Номер телефона"/>
+        <TextBlock Margin="5,386,0,0" Text="Должность*"/>
+        <TextBlock Margin="9,341,0,0" Text="Кафедра*"/>
+
+        <ComboBox x:Name="insertKaf" SelectedIndex="0" Margin="104,326,380,113" Width="115" Height="45">
+            <ComboBoxItem Content="Архитектуры"/>
+            <ComboBoxItem Content="Высшей математики"/>
+            <ComboBoxItem Content="Гуманитарных наук"/>
+            <ComboBoxItem Content="Иностранных языков"/>
+            <ComboBoxItem Content="Машиноведения"/>
+            <ComboBoxItem Content="Менеджмента"/>
+            <ComboBoxItem Content="Природообустройства"/>
+            <ComboBoxItem Content="Физики"/>
+            <ComboBoxItem Content="ИИТ"/>
+            <ComboBoxItem Content="Прикладной механики"/>
+            <ComboBoxItem Content="ЭВМ и систем"/>
+            <ComboBoxItem Content="Строительных конструкций"/>
+        </ComboBox>
+
+        <ComboBox x:Name="insertSpec" SelectedIndex="0" Margin="104,376,380,63" Width="115" Height="45">
+            <ComboBoxItem Content="Профессор"/>
+            <ComboBoxItem Content="Доцент"/>
+            <ComboBoxItem Content="Ст.Преподаватель"/>
+            <ComboBoxItem Content="Асистент"/>
+        </ComboBox>
+        <Button x:Name="insertBtn" Content="Добавить" HorizontalAlignment="Left" Margin="149,448,0,0" VerticalAlignment="Top" Width="75" Click="Accept_Click"/>
+        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Height="23" Margin="105,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="262" />
+        <TextBox x:Name="surTextBox" HorizontalAlignment="Left" Height="23" Margin="105,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="262" />
+        <TextBox x:Name="patTextBox" HorizontalAlignment="Left" Height="23" Margin="105,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="262" />
+        <TextBox x:Name="numTexBox" HorizontalAlignment="Left" Height="23" Margin="105,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="262" />
+        <TextBox x:Name="birthTexBox" HorizontalAlignment="Left" Height="23" Margin="105,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="262" />
+        <TextBox x:Name="adrTexBox" HorizontalAlignment="Left" Height="23" Margin="105,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="262" />
+        <Button x:Name="Foto" Content="Тут должно быть &#xD;&#xA;ваше фото" HorizontalAlignment="Left" Height="200" Margin="418,35,0,0" VerticalAlignment="Top" Width="132" Click="Image_give_me" />
+        <Image x:Name="imgImage" Margin="396,26,28,206"/>
+
+    </Grid>
+</Window>
